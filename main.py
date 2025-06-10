@@ -10,7 +10,7 @@ client = Bot('-', intents = Intents.all())
 
 @client.listen('on_ready')
 async def ready():
-    print(f'{client.user.name} Awaked!')
+    print(f'{client.user.name} online!')
 
 
 def load_cogs(path = 'cogs'):

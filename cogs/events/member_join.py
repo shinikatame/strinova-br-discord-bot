@@ -19,7 +19,7 @@ class MemberJoin(Cog):
         embed.colour = Colour.green()
         embed.set_thumbnail(url = member.avatar)
 
-        embed.description = f'🌟✨ Bem-vindo(a) {member.mention} ao nosso servidor ***{guild.name}*** de Strinova! ✨🌟 \n\n'
+        embed.description = f'🌟✨ Bem-vindo(a) {member.mention} ao nosso servidor ***{guild.name}***! ✨🌟 \n\n'
         embed.description += f'Entre estrelinhas e batalhas interdimensionais, aqui é onde a magia acontece! 💫 \n\n'
 
         embed.description += f'💖 Este é o nosso espaço especial para rir, jogar, brilhar e, claro, dar uns tiros estilosos com muito amor (e um pouco de caos também, né? hehe). \n\n'

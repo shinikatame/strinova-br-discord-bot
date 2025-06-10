@@ -33,6 +33,5 @@ class MemberJoin(Cog):
         await channel.send(embed = embed)
 
 
-
 def setup(bot):
     bot.add_cog(MemberJoin(bot))

@@ -64,7 +64,7 @@ class Ready(Cog):
         embed.description += f'{emojis["SBR_Trophy_fixed"]} <@&1383149666098614343> (Seja campeão da edição semanal do torneio) \n'
         embed.description += f'{emojis["SBR_Skull"]} <@&1383166371973828729> (Faça 30 kills durante as partidas MD3 do torneio semanal) \n'
 
-        # embed.set_image(url = '')
+        embed.set_image(url = 'https://media.discordapp.net/attachments/1381771110202347680/1383215466893283519/image.png?ex=684dfb4a&is=684ca9ca&hm=aa34f7646bd1234c73c204080f13f0d4d3f56ed26d956568ccb74e6f81132ca2&=&format=webp&quality=lossless')
 
         await message.edit(view = RankRoles(), embed = embed)
 

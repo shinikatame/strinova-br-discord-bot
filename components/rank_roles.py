@@ -72,4 +72,4 @@ class RankRoles(View):
 
         await inter.user.remove_roles(*roles)
 
-        await inter.response.send_message('Nivel alterado', ephemeral = True)
+        await inter.response.send_message('Nível alterado', ephemeral = True)

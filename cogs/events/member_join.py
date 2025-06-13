@@ -29,6 +29,7 @@ class MemberJoin(Cog):
         embed.description += '🫶 Deixe suas preocupações lá fora, coloque seu headset e venha fazer parte da nossa tripulação estelar!'
 
         embed.set_footer(text = f'ID do usuário: {member.id}')
+        embed.set_image(url = 'https://media.discordapp.net/attachments/1381771110202347680/1383173841454366830/image.png?ex=684dd485&is=684c8305&hm=df608dcaa840b875b070211a1dc573f8b8762ba899d6b42bea95fb9afe240f81&=&format=webp&quality=lossless')
 
         await channel.send(embed = embed)
 
